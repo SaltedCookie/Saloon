@@ -1,0 +1,77 @@
+import styles from '../commonModules/nailsHairFace.module.scss';
+
+export const data = {
+  nails: [{
+    shardOne: 'Педикюр',
+    shardTwo: '1 ч. 700 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.service,
+    linkText: 'Записаться',
+  }, {
+    shardOne: 'Маникюр + педикюр',
+    shardTwo: '1 ч. 30 мин. 1300 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.serviceNoneBorder,
+    linkText: 'Записаться',
+  }, {
+    shardOne: 'Маникюр + гель',
+    shardTwo: '45 мин. 1200 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.service,
+    linkText: 'Записаться',
+  }, {
+    shardOne: 'Маникюр',
+    shardTwo: '45 мин. 700 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.serviceNoneBorderBottom,
+    linkText: 'Записаться',
+  }],
+  face: [{
+    shardOne: 'Чистка',
+    shardTwo: '1 ч. 30 мин. 1200 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.service,
+    linkText: 'Записаться',
+  }, {
+    shardOne: 'Мезотерапия',
+    shardTwo: '1 ч. 30 мин. 2500 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.serviceNoneBorder,
+    linkText: 'Записаться',
+  }, {
+    shardOne: 'Пилинг',
+    shardTwo: '1 ч. 30 мин. 1800 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.service,
+    linkText: 'Записаться',
+  }],
+  hairs: [{
+    shardOne: 'Укладка',
+    shardTwo: '1 ч. 30 мин. 500 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.service,
+    linkText: 'Записаться',
+  }, {
+    shardOne: 'Стрижка',
+    shardTwo: '1 ч. 30 мин. 800 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.serviceNoneBorder,
+    linkText: 'Записаться',
+  }, {
+    shardOne: 'Окрашивание',
+    shardTwo: '2 ч. 30 мин. 1200 &#8381;',
+    shardOneClass: styles.serviceName,
+    shardTwoClass: styles.price,
+    sectionClass: styles.service,
+    linkText: 'Записаться',
+  }],
+};

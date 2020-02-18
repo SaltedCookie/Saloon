@@ -1,0 +1,73 @@
+.bodyContainer {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+
+  .servicesContainer {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 300px;
+    margin: -150px;
+
+    .services {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      width: 100%;
+      height: 250px;
+      
+      .care, .imagesContainers, .makeUp, .hairs, .nails {
+        width: 25%;
+      }
+
+      .images {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+      }     
+
+      .care, .nails, .makeUp {
+        font-size: 1.3em;
+        background-color: #FCD2C0;
+
+        a {
+          color: black;
+        }
+
+        a:hover {
+          color: white;
+        }
+      }
+
+      .makeUp {
+        background-color: black;
+        color: white;
+
+        a {
+          color: white;
+        }
+
+        a:hover {
+          color:#FBC1A9;
+        }
+      }
+
+      .hairs {
+        font-size: 1.3em;
+
+        a {
+          color: black;
+        }
+        
+        a:hover {
+          color:#FBC1A9;
+        }
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

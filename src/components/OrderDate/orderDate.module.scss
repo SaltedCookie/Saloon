@@ -1,0 +1,33 @@
+.orderDate {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  
+  .info {
+    border: 1px solid #A3A3A3;
+    width: 250px;
+    height: 300px;
+
+    .priceService {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #A3A3A3;
+      width: 80%;
+      height: 35%;
+      margin: auto;
+      text-align: left;
+      top: 20%;
+    }
+
+    .adress {
+      width: 80%;
+      height: 55%;
+      margin: auto;
+    }
+
+    button {
+      width: 100%;
+      height: 35px;
+    }
+  }
+}

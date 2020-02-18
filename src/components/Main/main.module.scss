@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Lemonada-SemiBold"; 
+  src: url("../../fonts/Lemonada-SemiBold.ttf");
+  font-family: "Lemonada-Light"; 
+  src: url("../../fonts/Lemonada-Light.ttf");
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  height: 800px;
+  border: 1px solid white;
+  background-image: url('../../images/model.png');
+  background-size: cover;
+  background-attachment: fixed;
+
+  h1 {
+    margin: 150px auto 20px 150px;
+    font-size: 100px;
+    color: white;
+    font-family: 'Lemonada-SemiBold', cursive;
+  }
+
+  p {
+    margin: 15px auto 20px 150px;
+    font-family: 'Lemonada-Light',serif;
+  }
+}

@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../images/naturalCosmetics.png');
+  background-size: cover;
+  background-attachment: fixed;
+
+  .discounts {
+    height: 500px;
+    background-color: black;
+    color: white;
+    width: 37%;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #FBC1A9;
+    }
+
+    table {
+      margin: 1% 15%;
+      justify-content: center;
+    }
+    
+    .winterSalesContainer {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin: 30px; 
+      font-size: 3em;
+
+      .winterSales {
+        margin: auto;
+      }
+    }
+
+    .offers {
+      padding: 0 100px 0 0;
+    }
+
+    .price, .offers {
+      font-size: 1.2em;
+    }
+
+    .registration {
+      padding: 50px 105px;
+      font-size: 1.2em;
+    }
+  }
+}

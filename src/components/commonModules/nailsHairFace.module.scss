@@ -1,0 +1,42 @@
+.service, .serviceNoneBorder, .serviceNoneBorderBottom {
+  width: 95%;
+  height: 120px;
+  display: flex;
+  margin: auto;
+
+  .serviceName {
+    width: 60%;
+    font-size: 1.2em;
+    margin: auto;
+  }
+
+  .price {
+    width: 27%;
+    font-size: 1em;
+    margin: auto;
+  }
+
+  a {
+    margin: auto;
+    text-align: center;
+    font-size: 1.1em;
+    width: 120px;
+    height: 35px;
+    text-decoration: none;
+    color: white;
+    background: #FBC1A9;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.service {
+  border-bottom: 1px solid #A3A3A3;
+  border-top: 1px solid #A3A3A3;
+}
+
+.serviceNoneBorderBottom {
+  border-bottom: 1px solid #A3A3A3;
+}

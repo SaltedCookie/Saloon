@@ -1,0 +1,75 @@
+.container, .containerInstructions {
+  margin: auto;
+  width: 75%;
+
+  h2, p {
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 50px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    
+    input {
+      margin: 15px 0;
+      width: 50%;
+      height: 30px;
+    }
+
+    button {
+      margin: 30px auto;
+      width: 15%;
+      height: 30px;
+    }
+  }
+
+  a {
+    margin: 380px;
+    text-decoration-color: #FBC1A9;
+    color: black;
+  }
+
+  a:hover {
+    color: #FBC1A9;
+    text-decoration-color: #A3A3A3;
+  }
+}
+
+.container {
+  height: auto;
+}
+
+.containerInstructions {
+  height: 600px;
+}
+
+.incorectPassword {
+  color: red;
+}
+
+.salesContainer {
+  width: 90%;
+  margin: 50px auto;
+  height: auto;
+ 
+  .imgContainer {
+    display: flex;
+    flex-direction: row;
+
+    .image {
+      width: 250px;
+      height: 250px;
+    }
+
+    .sales {
+      width: 70%;
+      text-align: center;
+      margin: auto;
+    }
+  }
+}

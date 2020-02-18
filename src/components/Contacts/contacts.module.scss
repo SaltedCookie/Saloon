@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .bubbles {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    -o-object-fit: contain;
+    object-fit: contain;
+    background-repeat: cover;
+  }
+
+  .contactsInfo {
+    width: 37%;
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .come {
+      margin: auto;
+      font-size: 3.5em;
+      display: flex;
+      justify-content: center;
+    }
+
+    .adress, .workTime {
+      font: 1.3em bold;
+      display: flex;
+      justify-content: center;
+    }
+
+    .info {
+      display: flex;
+    }
+
+    input, button {
+      background-color: black;
+      color: white;
+      margin: 2px;
+      border: 1px solid;
+    }
+
+    .message {
+      height: 30px;
+    }
+
+    button {
+      margin: 20px auto;
+      width: 100px;
+    }
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
